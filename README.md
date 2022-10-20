@@ -1,5 +1,27 @@
 # Тестовое задание для новых сотрудников
-Задание заключается в разработке простого интернет-магазина. Полное описание задания находится в шаблоне issue.
+Задание заключается в разработке простого интернет-магазина. Приложение должно состоять из двух сервисов:
+- Django сервер, реализующий GraphQL API
+- SSR Nuxt клиент
+
+Основные технологии сервера:
+| Зависимость                                                  | Версия |
+|--------------------------------------------------------------|--------|
+| [Python](https://www.python.org/downloads/)                  | 3.10   |
+| [Poetry](https://python-poetry.org/docs/#installation)       | latest |
+| [PostgreSQL](https://www.postgresql.org/download/)           | latest |
+| [Django](https://www.djangoproject.com/)                     | latest |
+| [Strawberry](https://strawberry.rocks/)                      | latest |
+
+Основные технологии клиента:
+| Зависимость                                               | Версия     |
+|-----------------------------------------------------------|------------|
+| [Node.js](https://nodejs.org/en/)                         | latest LTS |
+| [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/) | latest     |
+| [Nuxt](https://nuxtjs.org/)                               | 3          |
+| [Vuetify](https://next.vuetifyjs.com/en/)                 | 3
+| [Vue Apollo](https://v4.apollo.vuejs.org/)                | latest     |
+
+Полное описание шагов задания находится в шаблоне issue.
 
 Для выполнения необходимо:
 1. Сделать **fork** этого репозитория.
